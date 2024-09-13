@@ -9,5 +9,17 @@ export default defineNuxtConfig({
     'nuxt-schema-org',
     'nuxt-og-image',
     'nuxt-link-checker'
-  ]
+  ],
+  nitro: {
+    prerender: {
+      crawlLinks: true,
+      routes: ['/', 'sitemap.xml'],
+    },
+  },
+  site: {
+    url: 'https://www.rotadafortuna.com.br/',
+  },
+  sitemap: {
+    sources: ['/api/sitemap'],
+  },
 })
