@@ -157,4 +157,28 @@
     </div>
   </div>
 </template>
-<script></script>
+<script setup lang="ts">
+useHead({
+  title: "Rota da Fortuna",
+  meta: [
+    {
+      name: "description",
+      content:
+        "Aqui, você vai descobrir dicas valiosas sobre investimentos, educação financeira, empreendedorismo, renda extra e carreira profissional.",
+    },
+    {
+      name: "ogImage",
+      content:
+        "https://i.scdn.co/image/ab67656300005f1f679d5c9a04cd59b7b3ba7e66",
+    },
+    {
+      name: "twitterCard",
+      content: "summary_large_image",
+    },
+  ],
+  bodyAttrs: {
+    class: "test",
+  },
+  script: [{ innerHTML: "console.log('Hello world')" }],
+});
+</script>
