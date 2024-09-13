@@ -1,11 +1,11 @@
 <template>
-  <div class="">
+  <div class="dark:bg-black h-full">
     <div
       aria-hidden="true"
       class="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-40 dark:opacity-20"
     >
       <div
-        class="blur-[106px] h-56 bg-gradient-to-br from-primary to-purple-400 dark:from-blue-700"
+        class="blur-[106px] h-56 bg-gradient-to-br from-primary to-purple-400 dark:from-blue-600"
       ></div>
       <div
         class="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-sky-300 dark:to-indigo-600"
@@ -21,16 +21,25 @@
             <span class="text-primary dark:text-white">Fortuna</span>
           </h1>
           <p class="mt-8 text-gray-700 dark:text-gray-300">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
-            incidunt nam itaque sed eius modi error totam sit illum. Voluptas
-            doloribus asperiores quaerat aperiam. Quidem harum omnis beatae
-            ipsum soluta!
+            Dicas sobre liberdade financeira
+          </p>
+          <p class="mt-8 text-xl text-gray-700 dark:text-gray-300">
+            Bem-vindo ao nosso podcast de finanças! Aqui, você vai descobrir
+            dicas valiosas sobre investimentos, educação financeira,
+            empreendedorismo, renda extra e carreira profissional. Vamos te
+            ajudar a alcançar seus objetivos, oferecendo insights práticos para
+            crescimento financeiro e profissional.
+          </p>
+          <p class="mt-8 text-xl text-gray-700 dark:text-gray-300">
+            Junte-se a nós e comece a construir um futuro mais próspero.
+            Prepare-se para transformar sua relação com o dinheiro e dar um
+            passo decisivo na conquista da liberdade financeira.
           </p>
           <div class="mt-16 flex flex-wrap justify-center gap-y-4 gap-x-6">
             <NuxtLink
               class="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:bg-primary before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
             >
-              <span class="relative text-base font-semibold text-white"
+              <span class="relative text-base font-semibold text-black"
                 >Get started</span
               >
             </NuxtLink>
@@ -43,7 +52,7 @@
               >
             </NuxtLink>
           </div>
-          <div
+          <!-- <div
             class="hidden py-8 mt-16 border-y border-gray-100 dark:border-gray-800 sm:flex justify-between"
           >
             <div class="text-left">
@@ -64,7 +73,7 @@
               </h6>
               <p class="mt-2 text-gray-500">Some text here</p>
             </div>
-          </div>
+          </div> -->
         </div>
         <div class="mt-12 grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 mb-20">
           <div class="p-4 grayscale transition duration-200 hover:grayscale-0">

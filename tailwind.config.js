@@ -4,8 +4,10 @@ module.exports = {
       './layouts/**/*.vue',
       './pages/**/*.vue',
       './plugins/**/*.{js,ts}',
-      './nuxt.config.{js,ts}',
+      './app.vue', // Se houver um arquivo app.vue na raiz do projeto
+      './nuxt.config.{js,ts}', // Para ler o arquivo de configuração do Nuxt.js
    ],
+
    theme: {
       extend: {
          colors: {
